@@ -1,0 +1,19 @@
+{
+  "name": "the-algorithm-design-manual",
+  "version": "1.0.0",
+  "description": "Repository is organized into folders according to the chapters in the book",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "algotithms",
+    "examples"
+  ],
+  "author": "Abdullin Ilya",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "prettier": "2.6.2"
+  }
+}

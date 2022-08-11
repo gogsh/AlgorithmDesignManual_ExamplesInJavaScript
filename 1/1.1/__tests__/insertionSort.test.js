@@ -1,4 +1,4 @@
-const { insertionSort } = require('./insertionSort');
+const { insertionSort } = require('../insertionSort');
 
 describe('insertionSort', () => {
   test('Numbers', () => {

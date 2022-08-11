@@ -1,4 +1,4 @@
-const { distanceBetweenCoords } = require('../utils');
+const { distanceBetweenCoords } = require('../../utils');
 
 // Эвристический алгоритм ближайшего соседа (nearest-neighbor heuristic)
 const nearestNeighborHeuristic = (dots, startIndex) => {
@@ -48,4 +48,5 @@ function calculateDistance(dots) {
 
 module.exports = {
   nearestNeighborHeuristic,
+  calculateDistance,
 };

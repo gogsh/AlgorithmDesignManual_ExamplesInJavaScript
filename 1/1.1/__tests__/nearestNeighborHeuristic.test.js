@@ -1,5 +1,5 @@
-const { nearestNeighborHeuristic } = require('./nearestNeighborHeuristic');
-const { Point } = require('../utils');
+const { nearestNeighborHeuristic } = require('../nearestNeighborHeuristic');
+const { Point } = require('../../../utils');
 
 describe('nearestNeighborHeuristic', () => {
   const A = new Point(1, 1);

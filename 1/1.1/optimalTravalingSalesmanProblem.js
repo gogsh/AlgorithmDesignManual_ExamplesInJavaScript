@@ -1,6 +1,7 @@
 const { calculateDistance } = require('./nearestNeighborHeuristic');
 const { Point } = require('../../utils');
 
+/** Оптимальный алгоритм поиска маршрута (optimal traveling salesman problem algorithm)  !n-1 */
 const optimalTravelingSalesmanProblem = (dots, startIndex) => {
   const distances = calculateDistance(dots);
   const paths = [];
